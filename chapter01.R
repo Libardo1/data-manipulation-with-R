@@ -7,3 +7,9 @@ sapply(mylist,class)
 x=c(1,2,5,10)
 x
 mode(x)
+y=c(1,2,"cat",3)
+mode(y)
+z=c(5,TRUE,3,7)
+mode(z)
+all=c(x,y,z)
+all
