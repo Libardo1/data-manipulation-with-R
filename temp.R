@@ -12,3 +12,8 @@ hist(betas)
 mean(betas)
 var(betas)
 
+for (k in 1:length(dane$x)){
+  print(dane$x[dane$x<0])
+}
+
+dane
